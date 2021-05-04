@@ -1,0 +1,41 @@
+.searchFieldStyle {
+  position: relative;
+  margin: 20px;
+  height: 50px;
+  margin-bottom: 30px;
+  text-align: end;
+}
+
+    .searchFieldStyle input {
+        position: relative;
+        bottom: 17px;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 80px;
+        border-radius: 7px;
+        border: none;
+        z-index: 1;
+        right: -12px;
+    }
+
+.searchButton {
+    background-image: url(./icon/searchIcon.png);
+    width: 45px;
+    height: 45px;
+    background-color: #3b968e;
+    border: none;
+    border-radius: 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 450px) {
+  .searchFieldStyle {
+    position: relative;
+    margin: 20px;
+    padding: 0px !important;
+  }
+}

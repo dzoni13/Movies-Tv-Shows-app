@@ -1,0 +1,79 @@
+.elementContainer {
+    margin: 25px;
+    position: relative;
+    max-width: 300px;
+}
+
+    .elementContainer h3 {
+        color: #eeeeeed1;
+    }
+
+    .elementContainer h2 {
+        color: #888888fa;
+        font-size: 21px;
+        font-weight: 350;
+    }
+
+.noDataPage{
+    height: 100vh;
+    text-align: center;
+}
+
+.noDataImage{
+  height: auto;
+width: 100%;
+max-width: 300px;
+}
+
+.noDataPage h2 {
+  font-size: min(max(20px, 2.6vw), 30px);
+color: #fff;
+}
+
+.noDataPage p {
+  font-size: min(max(20px, 2.6vw), 30px);
+color: #fff;
+}
+
+.messageWrapper{
+      margin-top: 13%;
+}
+
+.imgContainer img {
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 20px 11px #0e0e0e;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.raiting {
+    position: absolute;
+    display: inline-flex;
+    right: -25px;
+    bottom: 27%;
+    font-size: 21px;
+    background-color: #3cb7abc2;
+    width: 50px;
+    height: 50px;
+    text-align: -webkit-center;
+    border-radius: 50%;
+    font-weight: 700;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+    .raiting p {
+        margin: 0;
+    }
+
+
+    @media only screen and (max-width: 450px) {
+      .noDataPage{
+           width: 79vw;
+           margin-left: 10px;
+      }
+    }
